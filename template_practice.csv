@@ -1,0 +1,6 @@
+type,nonceword,stimulus,item,correct,incorrect,alien_frame_audio,cat_first_answer,cat_answers_audio
+practice,Plorf,"""...A, B, C, X, E...""",practice1,D,Q,practice1_alien.wav,correct,practice1_cat.wav
+practice,Zeem,"""...One, two, X, ...""",practice2,Three,Zero,practice2_alien.wav,incorrect,practice2_cat.wav
+practice,Grood,"""...Give me a high X ...""",practice3,Five,Happy,practice3_alien.wav,correct,practice3_cat.wav
+practice,Cerlick,"""...Good X...""",practice4,Bye,Hello,practice4_alien.wav,ambiguous,practice4_cat.wav
+practice,Risp,"""...I risp you...""",practice5,Love,Listen,practice5_alien.wav,incorrect,practice5_cat.wav
