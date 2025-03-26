@@ -1,0 +1,7 @@
+type,nonceword,stimulus,item,correct,incorrect,alien_frame_audio,cat_first_answer,cat_answers_audio
+filler,Wumple,"""...Clean X...""",filler1,Up,Sky,filler1_alien.wav,correct,filler1_cat.wav
+filler,Drimdy,"""...Hide and X...""",filler2,Seek,Dig,filler2_alien.wav,incorrect,filler2_cat.wav
+filler,Fizzop,"""...Monday, Tuesday, X...""",filler3,Wednesday,December,filler3_alien.wav,correct,filler3_cat.wav
+filler,Zibblie,"""...Take Xs...""",filler4,Turn,Pink,filler4_alien.wav,incorrect,filler4_cat.wav
+filler,Himlap,"""...Go to X...""",filler5,Bed,Chair,filler5_alien.wav,correct,filler5_cat.wav
+filler,Flopsom,"""...X please...""",filler6,Say,Sneeze,filler6_alien.wav,incorrect,filler6_cat.wav
