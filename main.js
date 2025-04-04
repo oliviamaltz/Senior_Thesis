@@ -62,7 +62,7 @@ newTrial("fullscreen",
 )
 
 newTrial("instructions",
-    newImage("cat", "cat.png")
+    newImage("cat", asseturl + "cat.png")
         .css({
             "margin-bottom": "30px",
             "outline": "5px solid grey"
@@ -96,7 +96,7 @@ newTrial("instructions",
     ,
     getKey("space").wait()
     ,
-    getImage("percy").visible()
+    getImage("cat").visible()
     ,
     getText("inst").text("Her name is Blue and she speaks a different language.<br>Her language sounds like English but has some words that are different from English.")
     ,
@@ -178,23 +178,37 @@ const criticalTrial = function(row) {
         ,
         getKey(" ").wait()
         ,
-        // select choices
-        newText("super", row.super + " " + number).print()
-        ,
-        newText("basic", row.basic + " " + number).print()
-        ,
-        newCanvas("selection-canvas", 500, 100)
+        // ADULTS: input text
+        newTextInput("response")
             .center()
-            .add("center at 25%", "middle at 50%", getText("super"))
-            .add("center at 75%", "middle at 50%", getText("basic"))
+            .lines(1)
+            .size(500, 60)
+            .css({
+                "font-size": "30px" 
+            })
+            .cssContainer({
+                "margin": "2em 0"
+            })
             .print()
-        ,
-        newSelector("choice")
-            .add( getText("super") , getText("basic") )
-            .print()
-            .frame("dashed 3px green")
             .log()
         ,
+        // CHILDREN: select choices
+        // newText("super", row.super + " " + number).print()
+        // ,
+        // newText("basic", row.basic + " " + number).print()
+        // ,
+        // newCanvas("selection-canvas", 500, 100)
+        //     .center()
+        //     .add("center at 25%", "middle at 50%", getText("super"))
+        //     .add("center at 75%", "middle at 50%", getText("basic"))
+        //     .print()
+        // ,
+        // newSelector("choice")
+        //     .add( getText("super") , getText("basic") )
+        //     .print()
+        //     .frame("dashed 3px green")
+        //     .log()
+        // ,
         newButton("continue")
             .center()
             .print()
@@ -266,23 +280,37 @@ const nonCriticalTrial = function(row, label) {
         ,
         getKey(" ").wait()
         ,
-        // select choices
-        newText("correct", row.correct).print()
-        ,
-        newText("incorrect", row.incorrect).print()
-        ,
-        newCanvas("selection-canvas", 500, 100)
+        // ADULTS: input text
+        newTextInput("response")
             .center()
-            .add("center at 25%", "middle at 50%", getText("correct"))
-            .add("center at 75%", "middle at 50%", getText("incorrect"))
+            .lines(1)
+            .size(500, 60)
+            .css({
+                "font-size": "30px" 
+            })
+            .cssContainer({
+                "margin": "2em 0"
+            })
             .print()
-        ,
-        newSelector("choice")
-            .add( getText("correct") , getText("incorrect") )
-            .print()
-            .frame("dashed 3px green")
             .log()
         ,
+        // CHILDREN: select choices
+        // newText("correct", row.correct).print()
+        // ,
+        // newText("incorrect", row.incorrect).print()
+        // ,
+        // newCanvas("selection-canvas", 500, 100)
+        //     .center()
+        //     .add("center at 25%", "middle at 50%", getText("correct"))
+        //     .add("center at 75%", "middle at 50%", getText("incorrect"))
+        //     .print()
+        // ,
+        // newSelector("choice")
+        //     .add( getText("correct") , getText("incorrect") )
+        //     .print()
+        //     .frame("dashed 3px green")
+        //     .log()
+        // ,
         newButton("continue")
             .center()
             .print()
