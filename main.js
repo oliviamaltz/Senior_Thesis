@@ -130,7 +130,8 @@ const criticalTrial = function(row) {
 
 Template(
     GetTable("template.csv")
-        .filter(row => row.type == "critical4" && row.list == "list2" && row.item == "Vegetable")
+        // .filter(row => row.type.test("critical"))
+        // .filter(row => row.type == "critical4" && row.list == "list2" && row.item == "Vegetable")
     ,
     row => criticalTrial(row)
 )
