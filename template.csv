@@ -64,7 +64,7 @@ first,control2,Ziff,"""...that's a(n) X...""",list2,Candy,FALSE,candy,lollipop,i
 first,control2,Ziff,"""...that's a(n) X...""",list3,Insect,FALSE,insect,bee,is a,person5,person5_Ziff_control2.wav,super,Insect_sg_super.wav,11
 first,control2,Ziff,"""...that's a(n) X...""",list4,Bird,FALSE,bird,penguin,is a,person5,person5_Ziff_control2.wav,super,Bird_sg_super.wav,11
 first,control2,Ziff,"""...that's a(n) X...""",list5,Dessert,FALSE,dessert,cupcake,is a,person5,person5_Ziff_control2.wav,super,Dessert_sg_super.wav,11
-first,control2,Ziff,"""...that's a(n) X...""",list6,Jewelry,FALSE,,,is a,person5,person5_Ziff_control2.wav,super,Jewelry_sg_super.wav,11
+first,control2,Ziff,"""...that's a(n) X...""",list6,Jewelry,FALSE,jewelry,bracelet,is a,person5,person5_Ziff_control2.wav,super,Jewelry_sg_super.wav,11
 first,control3,Ozable,"""...that's called X...""",list1,Bird,FALSE,bird,penguin,called a,person6,person6_Ozable_control3.wav,basic,Bird_sg_basic.wav,12
 first,control3,Ozable,"""...that's called X...""",list2,Snack,FALSE,snack,pretzel,called a,person6,person6_Ozable_control3.wav,basic,Snack_sg_basic.wav,12
 first,control3,Ozable,"""...that's called X...""",list3,Candy,FALSE,candy,lollipop,called a,person6,person6_Ozable_control3.wav,basic,Candy_sg_basic.wav,12
@@ -84,14 +84,14 @@ first,critical2,Plinket,"""...some Xs""",list4,Monster,TRUE,monster,dragon,some,
 first,critical2,Plinket,"""...some Xs""",list5,Drink,TRUE,drink,milk,some,person2,person2_Plinket_critical2.wav,basic,Drink_pl_basic.wav,14
 first,critical2,Plinket,"""...some Xs""",list6,Meal,TRUE,meal,dinner,some,person2,person2_Plinket_critical2.wav,basic,Meal_pl_basic.wav,14
 first,critical3,Snorf,"""...kind of X...""",list1,Furniture,FALSE,furniture,chair,kind of,person3,person3_Snorf_critical3.wav,super,Furniture_sg_super.wav,15
-first,critical3,Snorf,"""...kind of X...""",list2,Jewelry,FALSE,,,kind of,person3,person3_Snorf_critical3.wav,super,Jewelry_sg_super.wav,15
+first,critical3,Snorf,"""...kind of X...""",list2,Jewelry,FALSE,jewelry,bracelet,kind of,person3,person3_Snorf_critical3.wav,super,Jewelry_sg_super.wav,15
 first,critical3,Snorf,"""...kind of X...""",list3,Furniture,FALSE,furniture,chair,kind of,person3,person3_Snorf_critical3.wav,super,Furniture_sg_super.wav,15
-first,critical3,Snorf,"""...kind of X...""",list4,Jewelry,FALSE,,,kind of,person3,person3_Snorf_critical3.wav,super,Jewelry_sg_super.wav,15
+first,critical3,Snorf,"""...kind of X...""",list4,Jewelry,FALSE,jewelry,bracelet,kind of,person3,person3_Snorf_critical3.wav,super,Jewelry_sg_super.wav,15
 first,critical3,Snorf,"""...kind of X...""",list5,Furniture,FALSE,furniture,chair,kind of,person3,person3_Snorf_critical3.wav,super,Furniture_sg_super.wav,15
 first,critical3,Snorf,"""...kind of X...""",list6,Drink,FALSE,drink,milk,kind of,person3,person3_Snorf_critical3.wav,super,Drink_sg_super.wav,15
-first,control1,Zibble,"""...X...""",list1,Jewelry,FALSE,,,bare singular,person4,person4_Zibble_control1.wav,basic,Jewelry_sg_basic.wav,16
+first,control1,Zibble,"""...X...""",list1,Jewelry,FALSE,jewelry,bracelet,bare singular,person4,person4_Zibble_control1.wav,basic,Jewelry_sg_basic.wav,16
 first,control1,Zibble,"""...X...""",list2,Furniture,FALSE,furniture,chair,bare singular,person4,person4_Zibble_control1.wav,basic,Furniture_sg_basic.wav,16
-first,control1,Zibble,"""...X...""",list3,Jewelry,FALSE,,,bare singular,person4,person4_Zibble_control1.wav,basic,Jewelry_sg_basic.wav,16
+first,control1,Zibble,"""...X...""",list3,Jewelry,FALSE,jewelry,bracelet,bare singular,person4,person4_Zibble_control1.wav,basic,Jewelry_sg_basic.wav,16
 first,control1,Zibble,"""...X...""",list4,Furniture,FALSE,furniture,chair,bare singular,person4,person4_Zibble_control1.wav,basic,Furniture_sg_basic.wav,16
 first,control1,Zibble,"""...X...""",list5,Plant,FALSE,plant,pumpkin,bare singular,person4,person4_Zibble_control1.wav,basic,Plant_sg_basic.wav,16
 first,control1,Zibble,"""...X...""",list6,Monster,FALSE,monster,dragon,bare singular,person4,person4_Zibble_control1.wav,basic,Monster_sg_basic.wav,16
@@ -105,7 +105,7 @@ first,control3,Drindle,"""...that's called X...""",list1,Plant,FALSE,plant,pumpk
 first,control3,Drindle,"""...that's called X...""",list2,Monster,FALSE,monster,dragon,called a,person6,person6_Drindle_control3.wav,basic,Monster_sg_basic.wav,18
 first,control3,Drindle,"""...that's called X...""",list3,Drink,FALSE,drink,milk,called a,person6,person6_Drindle_control3.wav,basic,Drink_sg_basic.wav,18
 first,control3,Drindle,"""...that's called X...""",list4,Meal,FALSE,meal,dinner,called a,person6,person6_Drindle_control3.wav,basic,Meal_sg_basic.wav,18
-first,control3,Drindle,"""...that's called X...""",list5,Jewelry,FALSE,,,called a,person6,person6_Drindle_control3.wav,basic,Jewelry_sg_basic.wav,18
+first,control3,Drindle,"""...that's called X...""",list5,Jewelry,FALSE,jewelry,bracelet,called a,person6,person6_Drindle_control3.wav,basic,Jewelry_sg_basic.wav,18
 first,control3,Drindle,"""...that's called X...""",list6,Furniture,FALSE,furniture,chair,called a,person6,person6_Drindle_control3.wav,basic,Furniture_sg_basic.wav,18
 first,critical1,Flerm,"""...Xs...""",list1,Flower,TRUE,flower,rose,plural,person1,person1_Flerm_critical1.wav,super,Flower_pl_super.wav,19
 first,critical1,Flerm,"""...Xs...""",list2,Food,TRUE,food,sandwich,plural,person1,person1_Flerm_critical1.wav,super,Food_pl_super.wav,19
@@ -226,16 +226,16 @@ second,critical5,Plinket,"""...Which X...""",list2,Meal,FALSE,meal,dinner,which,
 second,critical5,Plinket,"""...Which X...""",list3,Plant,FALSE,plant,pumpkin,which,person2,person2_Plinket_critical5.wav,basic,Plant_sg_basic.wav,14
 second,critical5,Plinket,"""...Which X...""",list4,Monster,FALSE,monster,dragon,which,person2,person2_Plinket_critical5.wav,basic,Monster_sg_basic.wav,14
 second,critical5,Plinket,"""...Which X...""",list5,Drink,FALSE,drink,milk,which,person2,person2_Plinket_critical5.wav,basic,Drink_sg_basic.wav,14
-second,critical5,Plinket,"""...Which X...""",list6,Jewelry,FALSE,,,which,person2,person2_Plinket_critical5.wav,basic,Jewelry_sg_basic.wav,14
+second,critical5,Plinket,"""...Which X...""",list6,Jewelry,FALSE,jewelry,bracelet,which,person2,person2_Plinket_critical5.wav,basic,Jewelry_sg_basic.wav,14
 second,critical6,Snorf,"""...another X...""",list1,Plant,FALSE,plant,pumpkin,another,person3,person3_Snorf_critical6.wav,super,Plant_sg_super.wav,15
 second,critical6,Snorf,"""...another X...""",list2,Monster,FALSE,monster,dragon,another,person3,person3_Snorf_critical6.wav,super,Monster_sg_super.wav,15
 second,critical6,Snorf,"""...another X...""",list3,Drink,FALSE,drink,milk,another,person3,person3_Snorf_critical6.wav,super,Drink_sg_super.wav,15
 second,critical6,Snorf,"""...another X...""",list4,Meal,FALSE,meal,dinner,another,person3,person3_Snorf_critical6.wav,super,Meal_sg_super.wav,15
 second,critical6,Snorf,"""...another X...""",list5,Plant,FALSE,plant,pumpkin,another,person3,person3_Snorf_critical6.wav,super,Plant_sg_super.wav,15
 second,critical6,Snorf,"""...another X...""",list6,Drink,FALSE,drink,milk,another,person3,person3_Snorf_critical6.wav,super,Drink_sg_super.wav,15
-second,control1,Zibble,"""...X...""",list1,Jewelry,FALSE,,,bare singular,person4,person4_Zibble_control1.wav,basic,Jewelry_sg_basic.wav,16
+second,control1,Zibble,"""...X...""",list1,Jewelry,FALSE,jewelry,bracelet,bare singular,person4,person4_Zibble_control1.wav,basic,Jewelry_sg_basic.wav,16
 second,control1,Zibble,"""...X...""",list2,Furniture,FALSE,furniture,chair,bare singular,person4,person4_Zibble_control1.wav,basic,Furniture_sg_basic.wav,16
-second,control1,Zibble,"""...X...""",list3,Jewelry,FALSE,,,bare singular,person4,person4_Zibble_control1.wav,basic,Jewelry_sg_basic.wav,16
+second,control1,Zibble,"""...X...""",list3,Jewelry,FALSE,jewelry,bracelet,bare singular,person4,person4_Zibble_control1.wav,basic,Jewelry_sg_basic.wav,16
 second,control1,Zibble,"""...X...""",list4,Furniture,FALSE,furniture,chair,bare singular,person4,person4_Zibble_control1.wav,basic,Furniture_sg_basic.wav,16
 second,control1,Zibble,"""...X...""",list5,Furniture,FALSE,furniture,chair,bare singular,person4,person4_Zibble_control1.wav,basic,Furniture_sg_basic.wav,16
 second,control1,Zibble,"""...X...""",list6,Monster,FALSE,monster,dragon,bare singular,person4,person4_Zibble_control1.wav,basic,Monster_sg_basic.wav,16
@@ -246,10 +246,10 @@ second,control2,Glibber,"""...that's a(n) X...""",list4,Plant,FALSE,plant,pumpki
 second,control2,Glibber,"""...that's a(n) X...""",list5,Monster,FALSE,monster,dragon,is a,person5,person5_Glibber_control2.wav,super,Monster_sg_super.wav,17
 second,control2,Glibber,"""...that's a(n) X...""",list6,Plant,FALSE,plant,pumpkin,is a,person5,person5_Glibber_control2.wav,super,Plant_sg_super.wav,17
 second,control3,Drindle,"""...that's called X...""",list1,Furniture,FALSE,furniture,chair,called a,person6,person6_Drindle_control3.wav,basic,Furniture_sg_basic.wav,18
-second,control3,Drindle,"""...that's called X...""",list2,Jewelry,FALSE,,,called a,person6,person6_Drindle_control3.wav,basic,Jewelry_sg_basic.wav,18
+second,control3,Drindle,"""...that's called X...""",list2,Jewelry,FALSE,jewelry,bracelet,called a,person6,person6_Drindle_control3.wav,basic,Jewelry_sg_basic.wav,18
 second,control3,Drindle,"""...that's called X...""",list3,Furniture,FALSE,furniture,chair,called a,person6,person6_Drindle_control3.wav,basic,Furniture_sg_basic.wav,18
-second,control3,Drindle,"""...that's called X...""",list4,Jewelry,FALSE,,,called a,person6,person6_Drindle_control3.wav,basic,Jewelry_sg_basic.wav,18
-second,control3,Drindle,"""...that's called X...""",list5,Jewelry,FALSE,,,called a,person6,person6_Drindle_control3.wav,basic,Jewelry_sg_basic.wav,18
+second,control3,Drindle,"""...that's called X...""",list4,Jewelry,FALSE,jewelry,bracelet,called a,person6,person6_Drindle_control3.wav,basic,Jewelry_sg_basic.wav,18
+second,control3,Drindle,"""...that's called X...""",list5,Jewelry,FALSE,jewelry,bracelet,called a,person6,person6_Drindle_control3.wav,basic,Jewelry_sg_basic.wav,18
 second,control3,Drindle,"""...that's called X...""",list6,Furniture,FALSE,furniture,chair,called a,person6,person6_Drindle_control3.wav,basic,Furniture_sg_basic.wav,18
 second,critical4,Flerm,"""...all Xs...""",list1,Flower,TRUE,flower,rose,all,person1,person1_Flerm_critical4.wav,super,Flower_pl_super.wav,19
 second,critical4,Flerm,"""...all Xs...""",list2,Food,TRUE,food,sandwich,all,person1,person1_Flerm_critical4.wav,super,Food_pl_super.wav,19
