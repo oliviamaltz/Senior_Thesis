@@ -2,7 +2,12 @@ PennController.ResetPrefix(null)
 
 const asseturl = "https://github.com/oliviamaltz/senior_thesis/releases/download/files/"
 
-Sequence("practice", "critical", "counter", SendResults())
+Sequence(
+    "practice",
+    "counter",
+    rshuffle(randomize("critical"), randomize("filler")),
+    SendResults()
+)
 SetCounter("counter", "inc", 1)
 
 defaultText
@@ -130,15 +135,14 @@ const criticalTrial = function(row) {
 
 Template(
     GetTable("template.csv")
-        // .filter(row => row.type.test("critical"))
         // .filter(row => row.type == "critical4" && row.list == "list2" && row.item == "Vegetable")
     ,
     row => criticalTrial(row)
 )
 
-const practiceTrial = function(row) {
+const nonCriticalTrial = function(row, label) {
     
-    return newTrial("practice",
+    return newTrial(label,
         // scene setup
         newImage("alien", asseturl + "alien_practice.png")
             .css({height: "300px"})
@@ -214,9 +218,18 @@ const practiceTrial = function(row) {
 
 }
 
+// practice trials
 Template(
     GetTable("template_practice.csv")
         //.filter(row => row.item == "practice1")
     ,
-    row => practiceTrial(row)
+    row => nonCriticalTrial(row, label = "practice")
+)
+
+// filler trials
+Template(
+    GetTable("template_filler.csv")
+        //.filter(row => row.item == "practice1")
+    ,
+    row => nonCriticalTrial(row, label = "filler")
 )
