@@ -3,6 +3,7 @@ PennController.ResetPrefix(null)
 const asseturl = "https://github.com/oliviamaltz/senior_thesis/releases/download/files/"
 
 Sequence(
+    "consent",
     "practice",
     "counter",
     rshuffle(randomize("critical"), randomize("filler")),
@@ -32,6 +33,20 @@ defaultTextInput
         "height": "50px"
     })
     .center()
+
+newTrial("consent",
+    newHtml("consent", "consent.html")
+        .cssContainer("margin", "0% 10%")
+        .print()
+    ,
+    newButton("consent button", "I agree to participate")
+        .cssContainer("margin-top", "2rem")
+        .cssContainer("margin-bottom", "1rem")
+        .css("font-size", "1.2em")
+        .center()
+        .print()
+        .wait()
+)
 
 const criticalTrial = function(row) {
 
