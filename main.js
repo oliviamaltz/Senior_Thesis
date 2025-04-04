@@ -4,6 +4,8 @@ const asseturl = "https://github.com/oliviamaltz/senior_thesis/releases/download
 
 Sequence(
     "consent",
+    "fullscreen",
+    "instructions",
     "practice",
     "counter",
     rshuffle(randomize("critical"), randomize("filler")),
@@ -46,6 +48,67 @@ newTrial("consent",
         .center()
         .print()
         .wait()
+)
+newTrial("fullscreen",
+    newText("<p style=font-size:18px;>Welcome to our study!</p>" +
+            "<p style=font-size:18px;>Press Enter to go full screen and begin!:</p>")
+        .center()  
+        .print()
+    ,
+    newKey("Enter","ENTER")
+        .wait()
+    ,
+    fullscreen()
+)
+
+newTrial("instructions",
+    newImage("cat", "cat.png")
+        .css({
+            "margin-bottom": "30px",
+            "outline": "5px solid grey"
+        })
+        .center()
+        .size(300)
+        .print()
+        .hidden()
+    ,
+    newText("inst", "Welcome!")
+        .css({
+            "font-size": "1.5em",
+            "line-height": "1.5",
+        })
+        .center()
+        .print()
+    ,
+    newText("press-space", "Press the space bar to continue")
+        .css({
+            "font-size": "1.2em",
+            "font-style": "italic",
+            "margin-top": "2em",
+            "animation": "blink 2s infinite",
+        })
+        .center()
+        .print()
+    ,
+    newKey("space", " ").wait()
+    ,
+    getText("inst").text("In this task, you're going to play a game with a friend.")
+    ,
+    getKey("space").wait()
+    ,
+    getImage("percy").visible()
+    ,
+    getText("inst").text("Her name is Blue and she speaks a different language.<br>Her language sounds like English but has some words that are different from English.")
+    ,
+    getKey("space").wait()
+    ,
+    getText("inst").text("Blue is looking for something from a pile of cards.<br>Once she finds what he's looking for, it's your turn.<br>So pay attention!")
+    ,
+    getKey("space").wait()
+    ,
+    getText("inst").text("Are you ready?<br><strong>Turn up the volume</strong> and press the spacebar to begin!")
+    ,
+    newKey(" ").wait()
 )
 
 const criticalTrial = function(row) {
