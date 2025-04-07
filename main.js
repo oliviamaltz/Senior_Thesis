@@ -350,7 +350,7 @@ const nonCriticalTrial = function(row, label) {
 // practice trials
 Template(
     GetTable("template_practice.csv")
-        //.filter(row => row.item == "practice1")
+        // .filter(row => row.item == "practice1")
     ,
     row => nonCriticalTrial(row, label = "practice")
 )
@@ -358,7 +358,7 @@ Template(
 // filler trials
 Template(
     GetTable("template_filler.csv")
-        .filter(row => row.item == "practice1")
+        // .filter(row => row.item == "filler1")
     ,
     row => nonCriticalTrial(row, label = "filler")
 )
