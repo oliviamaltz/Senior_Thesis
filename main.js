@@ -8,6 +8,7 @@ Sequence(
     "instructions",
     "practice",
     "counter",
+    "transition",
     rshuffle(randomize("critical"), randomize("filler")),
     SendResults()
 )
@@ -111,6 +112,28 @@ newTrial("instructions",
     newKey(" ").wait()
 )
 
+newTrial("transition",
+    newText("inst", "That was practice. now the real thing...") // Edit this text
+        .css({
+            "font-size": "1.5em",
+            "line-height": "1.5",
+        })
+        .center()
+        .print()
+    ,
+    newText("press-space", "Press the space bar to continue")
+        .css({
+            "font-size": "1.2em",
+            "font-style": "italic",
+            "margin-top": "2em",
+            "animation": "blink 2s infinite",
+        })
+        .center()
+        .print()
+    ,
+    newKey("space", " ").wait()
+)
+
 const criticalTrial = function(row) {
 
     const number = row.plural == "TRUE" ? "pl" : "sg"
@@ -141,10 +164,10 @@ const criticalTrial = function(row) {
             .add("center at 0%", "middle at 50%", getImage("alien"))
             .add("center at 100%", "middle at 50%", getImage("cat"))
             .print()
-        ,
-        newText(row.item)
-            .center()
-            .print()
+        // ,
+        // newText(row.item)
+        //     .center()
+        //     .print()
         ,
         newKey(" ").wait()
         ,
@@ -247,10 +270,10 @@ const nonCriticalTrial = function(row, label) {
             .add("center at 0%", "middle at 50%", getImage("alien"))
             .add("center at 100%", "middle at 50%", getImage("cat"))
             .print()
-        ,
-        newText(row.item)
-            .center()
-            .print()
+        // ,
+        // newText(row.item)
+        //     .center()
+        //     .print()
         ,
         newKey(" ").wait()
         ,
@@ -335,7 +358,7 @@ Template(
 // filler trials
 Template(
     GetTable("template_filler.csv")
-        //.filter(row => row.item == "practice1")
+        .filter(row => row.item == "practice1")
     ,
     row => nonCriticalTrial(row, label = "filler")
 )
