@@ -92,17 +92,17 @@ newTrial("instructions",
     ,
     newKey("space", " ").wait()
     ,
-    getText("inst").text("In this task, you're going to play a game with a friend.")
+    getText("inst").text("In this task, you're going help a friend decode some alien words!")
     ,
     getKey("space").wait()
     ,
     getImage("cat").visible()
     ,
-    getText("inst").text("Her name is Blue and she speaks a different language.<br>Her language sounds like English but has some words that are different from English.")
+    getText("inst").text("This is Anne and she want to call her alien friends who live on a different planet.<br>Her friends speak a language that sounds like English but has some words that are different.")
     ,
     getKey("space").wait()
     ,
-    getText("inst").text("Blue is looking for something from a pile of cards.<br>Once she finds what he's looking for, it's your turn.<br>So pay attention!")
+    getText("inst").text("Sometimes the phone call has a bad connection, so Anne does not hear everything her her friend says on the phone.<br>We are going to help her guess the meaning of slien words she does not know.<br>She will give you two options, so pay attention!")
     ,
     getKey("space").wait()
     ,
