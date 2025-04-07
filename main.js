@@ -93,17 +93,21 @@ newTrial("instructions",
     ,
     newKey("space", " ").wait()
     ,
-    getText("inst").text("In this task, you're going help a friend decode some alien words!")
+    getText("inst").text("In this task, you're going help a friend learn some alien words!")
     ,
     getKey("space").wait()
     ,
     getImage("cat").visible()
     ,
-    getText("inst").text("This is Anne and she want to call her alien friends who live on a different planet.<br>Her friends speak a language that sounds like English but has some words that are different.")
+    getText("inst").text("This is Anne and she want to call her alien friends who live far away.<br>The alien friends speak a language that sounds like English but has some words that are different.")
     ,
     getKey("space").wait()
     ,
-    getText("inst").text("Sometimes the phone call has a bad connection, so Anne does not hear everything her her friend says on the phone.<br>We are going to help her guess the meaning of slien words she does not know.<br>She will give you two options, so pay attention!")
+    getText("inst").text("Anne will listen to some alien words and tell you what she thinks they could mean.<br>Pay attention and help her figure out what the alien words mean!")
+    ,
+    getKey("space").wait()
+    ,
+    getText("inst").text("Also, the phone doesn't work very well.<br>We won't hear everything that the aliens say, but try your best.")
     ,
     getKey("space").wait()
     ,
@@ -113,7 +117,7 @@ newTrial("instructions",
 )
 
 newTrial("transition",
-    newText("inst", "That was practice. now the real thing...") // Edit this text
+    newText("inst", "Are you ready for more? Help Anne figure out what the alien words mean!") // Edit this text
         .css({
             "font-size": "1.5em",
             "line-height": "1.5",
@@ -207,7 +211,7 @@ const criticalTrial = function(row) {
             .lines(1)
             .size(500, 60)
             .css({
-                "font-size": "30px" 
+                "font-size": "24px" 
             })
             .cssContainer({
                 "margin": "2em 0"
@@ -304,12 +308,17 @@ const nonCriticalTrial = function(row, label) {
         getKey(" ").wait()
         ,
         // ADULTS: input text
+        newText("text-instruction", label == "practice" ? `What does ${row.nonceword} mean?` : "")
+            .css({"font-size": "24px"})
+            .center()
+            .print()
+        ,
         newTextInput("response")
             .center()
             .lines(1)
             .size(500, 60)
             .css({
-                "font-size": "30px" 
+                "font-size": "24px" 
             })
             .cssContainer({
                 "margin": "2em 0"
