@@ -156,7 +156,8 @@ const criticalTrial = function(row) {
         audio_second = `${superordinate}_${number}.wav`
     }
 
-    alien_id = 1
+    const alien_id = Math.floor(Math.random() * 29) + 1
+
 
     return newTrial("critical",
         // scene setup
@@ -393,8 +394,8 @@ newTrial( "bye" ,
     ,
     newText( "debrief" , `<div>
         <h2>Debriefing</h2>
-        <p>In this experiment, we were looking at how people generalize the meaning of a new word (e.g., "fep") when the evidence (e.g., an image of a dalmatian) points to either a narrow meaning (like DALMATIAN) or a broad meaning (like DOG) of the word. We hypothesized that when the evidence was also accompanied by an alternative to the narrow meaning (e.g., an image of a corgi), people are more likely to think that "fep" means DALMATIAN, as opposed to DOG.</p>
-        <p>We manipulated the speaker's knowledge of the alternatives to test this hypothesis. If you answered "YES" just to images of other dalmatians, we took that to mean that you think "fep" means DALMATIAN. On the other hand, if you answered "YES" to all dogs, including dalmatians, we took that to mean that you think "fep" means DOG. Additionally, we also kept track of the time it took for you to make a decision with the F and J keys, to measure how confident or surprised you were in making a decision for each image during the task.</p>
+        <p>In this experiment, we were interested in how people figure out the meaning of a new word (ex. "plorf") based on the kind of sentence it appears in. For example, when a sentence said something like “a kind of plorf,” or “some plorfs,” we wanted to see whether people would guess that “plorf” referred to a broad group (like ANIMAL), rather than a more specific kind (like DOG).</p>
+        <p>We tested this by playing a phone call between a cat and her alien friend, where only part of the sentence came through clearly (e.g., “...kind of plorf…”). After hearing the alien, you were asked to help the cat figure out what “plorf” meant by choosing between two words you hears, one being a specific word (like DOG) and one being a general word (like ANIMAL). If you picked the more general category, we took that to mean you thought “plorf” referred to the broader, superordinate meaning. This helps us learn how people use language to understand how words can mean more than just one thing!</p>
     </div>`)
         .css({
           "width": "800px",
