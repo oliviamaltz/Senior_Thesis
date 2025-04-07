@@ -10,7 +10,8 @@ Sequence(
     "counter",
     "transition",
     rshuffle(randomize("critical"), randomize("filler")),
-    SendResults()
+    SendResults(),
+    "bye"
 )
 SetCounter("counter", "inc", 1)
 
@@ -37,6 +38,8 @@ defaultTextInput
     })
     .center()
 
+Header()
+    .log( "sonaID" , GetURLParameter("id") )
 newTrial("consent",
     newHtml("consent", "consent.html")
         .cssContainer("margin", "0% 10%")
@@ -168,12 +171,16 @@ const criticalTrial = function(row) {
             .add("center at 0%", "middle at 50%", getImage("alien"))
             .add("center at 100%", "middle at 50%", getImage("cat"))
             .print()
+        ,
+        newTimer("beginning-buffer", 500)
+            .start()
+            .wait()
         // ,
         // newText(row.item)
         //     .center()
         //     .print()
-        ,
-        newKey(" ").wait()
+        // ,
+        // newKey(" ").wait()
         ,
         // alien says frame
         getImage("alien")
@@ -185,8 +192,8 @@ const criticalTrial = function(row) {
         ,
         getImage("alien")
             .css({"animation": "none"})
-        ,
-        getKey(" ").wait()
+        // ,
+        // getKey(" ").wait()
         ,
         // cat says choices
         getImage("cat")
@@ -202,8 +209,8 @@ const criticalTrial = function(row) {
         ,
         getImage("cat")
             .css({"animation": "none"})
-        ,
-        getKey(" ").wait()
+        // ,
+        // getKey(" ").wait()
         ,
         // ADULTS: input text
         newTextInput("response")
@@ -278,8 +285,8 @@ const nonCriticalTrial = function(row, label) {
         // newText(row.item)
         //     .center()
         //     .print()
-        ,
-        newKey(" ").wait()
+        // ,
+        // newKey(" ").wait()
         ,
         // alien says frame
         getImage("alien")
@@ -291,8 +298,8 @@ const nonCriticalTrial = function(row, label) {
         ,
         getImage("alien")
             .css({"animation": "none"})
-        ,
-        getKey(" ").wait()
+        // ,
+        // getKey(" ").wait()
         ,
         // cat says choices
         getImage("cat")
@@ -304,8 +311,8 @@ const nonCriticalTrial = function(row, label) {
         ,
         getImage("cat")
             .css({"animation": "none"})
-        ,
-        getKey(" ").wait()
+        // ,
+        // getKey(" ").wait()
         ,
         // ADULTS: input text
         newText("text-instruction", label == "practice" ? `What does ${row.nonceword} mean?` : "")
@@ -370,4 +377,36 @@ Template(
         // .filter(row => row.item == "filler1")
     ,
     row => nonCriticalTrial(row, label = "filler")
+)
+
+newTrial( "bye" ,
+    newText("<p>Your results have been saved, but you need to validate your participation below.</p>" +
+            `<p>
+                <a href='https://upenn.sona-systems.com/webstudy_credit.aspx?experiment_id=1391&credit_token=119b0e0194fc4749b6aa1b06e7277dd8&survey_code=${GetURLParameter("id")}', target='_blank'>
+                Click here to confirm my participation on SONA.
+                </a>
+            </p>
+            <p>This is a necessary step in order for you to receive participation credit!</p>`)
+        .css({"text-align": "left"})
+        .center()
+        .print()
+    ,
+    newText( "debrief" , `<div>
+        <h2>Debriefing</h2>
+        <p>In this experiment, we were looking at how people generalize the meaning of a new word (e.g., "fep") when the evidence (e.g., an image of a dalmatian) points to either a narrow meaning (like DALMATIAN) or a broad meaning (like DOG) of the word. We hypothesized that when the evidence was also accompanied by an alternative to the narrow meaning (e.g., an image of a corgi), people are more likely to think that "fep" means DALMATIAN, as opposed to DOG.</p>
+        <p>We manipulated the speaker's knowledge of the alternatives to test this hypothesis. If you answered "YES" just to images of other dalmatians, we took that to mean that you think "fep" means DALMATIAN. On the other hand, if you answered "YES" to all dogs, including dalmatians, we took that to mean that you think "fep" means DOG. Additionally, we also kept track of the time it took for you to make a decision with the F and J keys, to measure how confident or surprised you were in making a decision for each image during the task.</p>
+    </div>`)
+        .css({
+          "width": "800px",
+          "margin-top": "20px",
+          "border-top": "2px solid black",
+          "text-align": "left"
+        })
+        .center()
+        .print()
+    ,
+    newButton("empty")
+        .print()
+        .hidden()
+        .wait()
 )
