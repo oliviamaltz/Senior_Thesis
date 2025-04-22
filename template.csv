@@ -1,289 +1,33 @@
-split,type,nonceword,stimulus,list,item,plural,super,basic,cue,person,alien_frame_audio,cat_first_answer,cat_answers_audio,rowid
-first,critical1,Blicket,"""...Xs...""",list1,Toy,TRUE,toy,ball,plural,person1,person1_Blicket_critical1.wav,super,Toy_pl_super.wav,1
-first,critical1,Blicket,"""...Xs...""",list2,Vegetable,TRUE,vegetable,pepper,plural,person1,person1_Blicket_critical1.wav,super,Vegetable_pl_super.wav,1
-first,critical1,Blicket,"""...Xs...""",list3,Fruit,TRUE,fruit,apple,plural,person1,person1_Blicket_critical1.wav,super,Fruit_pl_super.wav,1
-first,critical1,Blicket,"""...Xs...""",list4,Building,TRUE,building,hospital,plural,person1,person1_Blicket_critical1.wav,super,Building_pl_super.wav,1
-first,critical1,Blicket,"""...Xs...""",list5,Tool,TRUE,tool,hammer,plural,person1,person1_Blicket_critical1.wav,super,Tool_pl_super.wav,1
-first,critical1,Blicket,"""...Xs...""",list6,Animal,TRUE,animal,dog,plural,person1,person1_Blicket_critical1.wav,super,Animal_pl_super.wav,1
-first,critical2,Gooble,"""...some Xs""",list1,Animal,TRUE,animal,dog,some,person2,person2_Gooble_critical2.wav,basic,Animal_pl_basic.wav,2
-first,critical2,Gooble,"""...some Xs""",list2,Toy,TRUE,toy,ball,some,person2,person2_Gooble_critical2.wav,basic,Toy_pl_basic.wav,2
-first,critical2,Gooble,"""...some Xs""",list3,Vegetable,TRUE,vegetable,pepper,some,person2,person2_Gooble_critical2.wav,basic,Vegetable_pl_basic.wav,2
-first,critical2,Gooble,"""...some Xs""",list4,Fruit,TRUE,fruit,apple,some,person2,person2_Gooble_critical2.wav,basic,Fruit_pl_basic.wav,2
-first,critical2,Gooble,"""...some Xs""",list5,Building,TRUE,building,hospital,some,person2,person2_Gooble_critical2.wav,basic,Building_pl_basic.wav,2
-first,critical2,Gooble,"""...some Xs""",list6,Tool,TRUE,tool,hammer,some,person2,person2_Gooble_critical2.wav,basic,Tool_pl_basic.wav,2
-first,critical3,Wug,"""...kind of X...""",list1,Tool,FALSE,tool,hammer,kind of,person3,person3_Wug_critical3.wav,super,Tool_sg_super.wav,3
-first,critical3,Wug,"""...kind of X...""",list2,Animal,FALSE,animal,dog,kind of,person3,person3_Wug_critical3.wav,super,Animal_sg_super.wav,3
-first,critical3,Wug,"""...kind of X...""",list3,Toy,FALSE,toy,ball,kind of,person3,person3_Wug_critical3.wav,super,Toy_sg_super.wav,3
-first,critical3,Wug,"""...kind of X...""",list4,Vegetable,FALSE,vegetable,pepper,kind of,person3,person3_Wug_critical3.wav,super,Vegetable_sg_super.wav,3
-first,critical3,Wug,"""...kind of X...""",list5,Fruit,FALSE,fruit,apple,kind of,person3,person3_Wug_critical3.wav,super,Fruit_sg_super.wav,3
-first,critical3,Wug,"""...kind of X...""",list6,Building,FALSE,building,hospital,kind of,person3,person3_Wug_critical3.wav,super,Building_sg_super.wav,3
-first,control1,Greeble,"""...X...""",list1,Building,FALSE,building,hospital,bare singular,person4,person4_Greeble_control1.wav,basic,Building_sg_basic.wav,4
-first,control1,Greeble,"""...X...""",list2,Tool,FALSE,tool,hammer,bare singular,person4,person4_Greeble_control1.wav,basic,Tool_sg_basic.wav,4
-first,control1,Greeble,"""...X...""",list3,Animal,FALSE,animal,dog,bare singular,person4,person4_Greeble_control1.wav,basic,Animal_sg_basic.wav,4
-first,control1,Greeble,"""...X...""",list4,Toy,FALSE,toy,ball,bare singular,person4,person4_Greeble_control1.wav,basic,Toy_sg_basic.wav,4
-first,control1,Greeble,"""...X...""",list5,Vegetable,FALSE,vegetable,pepper,bare singular,person4,person4_Greeble_control1.wav,basic,Vegetable_sg_basic.wav,4
-first,control1,Greeble,"""...X...""",list6,Fruit,FALSE,fruit,apple,bare singular,person4,person4_Greeble_control1.wav,basic,Fruit_sg_basic.wav,4
-first,control2,Zorbit,"""...that's a(n) X...""",list1,Fruit,FALSE,fruit,apple,is a,person5,person5_Zorbit_control2.wav,super,Fruit_sg_super.wav,5
-first,control2,Zorbit,"""...that's a(n) X...""",list2,Building,FALSE,building,hospital,is a,person5,person5_Zorbit_control2.wav,super,Building_sg_super.wav,5
-first,control2,Zorbit,"""...that's a(n) X...""",list3,Tool,FALSE,tool,hammer,is a,person5,person5_Zorbit_control2.wav,super,Tool_sg_super.wav,5
-first,control2,Zorbit,"""...that's a(n) X...""",list4,Animal,FALSE,animal,dog,is a,person5,person5_Zorbit_control2.wav,super,Animal_sg_super.wav,5
-first,control2,Zorbit,"""...that's a(n) X...""",list5,Toy,FALSE,toy,ball,is a,person5,person5_Zorbit_control2.wav,super,Toy_sg_super.wav,5
-first,control2,Zorbit,"""...that's a(n) X...""",list6,Vegetable,FALSE,vegetable,pepper,is a,person5,person5_Zorbit_control2.wav,super,Vegetable_sg_super.wav,5
-first,control3,Flork,"""...that's called X...""",list1,Vegetable,FALSE,vegetable,pepper,called a,person6,person6_Flork_control3.wav,basic,Vegetable_sg_basic.wav,6
-first,control3,Flork,"""...that's called X...""",list2,Fruit,FALSE,fruit,apple,called a,person6,person6_Flork_control3.wav,basic,Fruit_sg_basic.wav,6
-first,control3,Flork,"""...that's called X...""",list3,Building,FALSE,building,hospital,called a,person6,person6_Flork_control3.wav,basic,Building_sg_basic.wav,6
-first,control3,Flork,"""...that's called X...""",list4,Tool,FALSE,tool,hammer,called a,person6,person6_Flork_control3.wav,basic,Tool_sg_basic.wav,6
-first,control3,Flork,"""...that's called X...""",list5,Animal,FALSE,animal,dog,called a,person6,person6_Flork_control3.wav,basic,Animal_sg_basic.wav,6
-first,control3,Flork,"""...that's called X...""",list6,Toy,FALSE,toy,ball,called a,person6,person6_Flork_control3.wav,basic,Toy_sg_basic.wav,6
-first,critical1,Beelick,"""...Xs...""",list1,Dessert,TRUE,dessert,cupcake,plural,person1,person1_Beelick_critical1.wav,super,Dessert_pl_super.wav,7
-first,critical1,Beelick,"""...Xs...""",list2,Bird,TRUE,bird,penguin,plural,person1,person1_Beelick_critical1.wav,super,Bird_pl_super.wav,7
-first,critical1,Beelick,"""...Xs...""",list3,Snack,TRUE,snack,pretzel,plural,person1,person1_Beelick_critical1.wav,super,Snack_pl_super.wav,7
-first,critical1,Beelick,"""...Xs...""",list4,Candy,TRUE,candy,lollipop,plural,person1,person1_Beelick_critical1.wav,super,Candy_pl_super.wav,7
-first,critical1,Beelick,"""...Xs...""",list5,Insect,TRUE,insect,bee,plural,person1,person1_Beelick_critical1.wav,super,Insect_pl_super.wav,7
-first,critical1,Beelick,"""...Xs...""",list6,Candy,TRUE,candy,lollipop,plural,person1,person1_Beelick_critical1.wav,super,Candy_pl_super.wav,7
-first,critical2,Crendle,"""...some Xs""",list1,Candy,TRUE,candy,lollipop,some,person2,person2_Crendle_critical2.wav,basic,Candy_pl_basic.wav,8
-first,critical2,Crendle,"""...some Xs""",list2,Dessert,TRUE,dessert,cupcake,some,person2,person2_Crendle_critical2.wav,basic,Dessert_pl_basic.wav,8
-first,critical2,Crendle,"""...some Xs""",list3,Bird,TRUE,bird,penguin,some,person2,person2_Crendle_critical2.wav,basic,Bird_pl_basic.wav,8
-first,critical2,Crendle,"""...some Xs""",list4,Snack,TRUE,snack,pretzel,some,person2,person2_Crendle_critical2.wav,basic,Snack_pl_basic.wav,8
-first,critical2,Crendle,"""...some Xs""",list5,Candy,TRUE,candy,lollipop,some,person2,person2_Crendle_critical2.wav,basic,Candy_pl_basic.wav,8
-first,critical2,Crendle,"""...some Xs""",list6,Insect,TRUE,insect,bee,some,person2,person2_Crendle_critical2.wav,basic,Insect_pl_basic.wav,8
-first,critical3,Mip,"""...kind of X...""",list1,Insect,FALSE,insect,bee,kind of,person3,person3_Mip_critical3.wav,super,Insect_sg_super.wav,9
-first,critical3,Mip,"""...kind of X...""",list2,Clothing,FALSE,clothing,dress,kind of,person3,person3_Mip_critical3.wav,super,Clothing_sg_super.wav,9
-first,critical3,Mip,"""...kind of X...""",list3,Dessert,FALSE,dessert,cupcake,kind of,person3,person3_Mip_critical3.wav,super,Dessert_sg_super.wav,9
-first,critical3,Mip,"""...kind of X...""",list4,Clothing,FALSE,clothing,dress,kind of,person3,person3_Mip_critical3.wav,super,Clothing_sg_super.wav,9
-first,critical3,Mip,"""...kind of X...""",list5,Snack,FALSE,snack,pretzel,kind of,person3,person3_Mip_critical3.wav,super,Snack_sg_super.wav,9
-first,critical3,Mip,"""...kind of X...""",list6,Clothing,FALSE,clothing,dress,kind of,person3,person3_Mip_critical3.wav,super,Clothing_sg_super.wav,9
-first,control1,Glorp,"""...X...""",list1,Clothing,FALSE,clothing,dress,bare singular,person4,person4_Glorp_control1.wav,basic,Clothing_sg_basic.wav,10
-first,control1,Glorp,"""...X...""",list2,Insect,FALSE,insect,bee,bare singular,person4,person4_Glorp_control1.wav,basic,Insect_sg_basic.wav,10
-first,control1,Glorp,"""...X...""",list3,Clothing,FALSE,clothing,dress,bare singular,person4,person4_Glorp_control1.wav,basic,Clothing_sg_basic.wav,10
-first,control1,Glorp,"""...X...""",list4,Dessert,FALSE,dessert,cupcake,bare singular,person4,person4_Glorp_control1.wav,basic,Dessert_sg_basic.wav,10
-first,control1,Glorp,"""...X...""",list5,Bird,FALSE,bird,penguin,bare singular,person4,person4_Glorp_control1.wav,basic,Bird_sg_basic.wav,10
-first,control1,Glorp,"""...X...""",list6,Snack,FALSE,snack,pretzel,bare singular,person4,person4_Glorp_control1.wav,basic,Snack_sg_basic.wav,10
-first,control2,Ziff,"""...that's a(n) X...""",list1,Snack,FALSE,snack,pretzel,is a,person5,person5_Ziff_control2.wav,super,Snack_sg_super.wav,11
-first,control2,Ziff,"""...that's a(n) X...""",list2,Candy,FALSE,candy,lollipop,is a,person5,person5_Ziff_control2.wav,super,Candy_sg_super.wav,11
-first,control2,Ziff,"""...that's a(n) X...""",list3,Insect,FALSE,insect,bee,is a,person5,person5_Ziff_control2.wav,super,Insect_sg_super.wav,11
-first,control2,Ziff,"""...that's a(n) X...""",list4,Bird,FALSE,bird,penguin,is a,person5,person5_Ziff_control2.wav,super,Bird_sg_super.wav,11
-first,control2,Ziff,"""...that's a(n) X...""",list5,Dessert,FALSE,dessert,cupcake,is a,person5,person5_Ziff_control2.wav,super,Dessert_sg_super.wav,11
-first,control2,Ziff,"""...that's a(n) X...""",list6,Jewelry,FALSE,jewelry,bracelet,is a,person5,person5_Ziff_control2.wav,super,Jewelry_sg_super.wav,11
-first,control3,Ozable,"""...that's called X...""",list1,Bird,FALSE,bird,penguin,called a,person6,person6_Ozable_control3.wav,basic,Bird_sg_basic.wav,12
-first,control3,Ozable,"""...that's called X...""",list2,Snack,FALSE,snack,pretzel,called a,person6,person6_Ozable_control3.wav,basic,Snack_sg_basic.wav,12
-first,control3,Ozable,"""...that's called X...""",list3,Candy,FALSE,candy,lollipop,called a,person6,person6_Ozable_control3.wav,basic,Candy_sg_basic.wav,12
-first,control3,Ozable,"""...that's called X...""",list4,Insect,FALSE,insect,bee,called a,person6,person6_Ozable_control3.wav,basic,Insect_sg_basic.wav,12
-first,control3,Ozable,"""...that's called X...""",list5,Clothing,FALSE,clothing,dress,called a,person6,person6_Ozable_control3.wav,basic,Clothing_sg_basic.wav,12
-first,control3,Ozable,"""...that's called X...""",list6,Dessert,FALSE,dessert,cupcake,called a,person6,person6_Ozable_control3.wav,basic,Dessert_sg_basic.wav,12
-first,critical1,Vark,"""...Xs...""",list1,Meal,TRUE,meal,dinner,plural,person1,person1_Vark_critical1.wav,super,Meal_pl_super.wav,13
-first,critical1,Vark,"""...Xs...""",list2,Plant,TRUE,plant,pumpkin,plural,person1,person1_Vark_critical1.wav,super,Plant_pl_super.wav,13
-first,critical1,Vark,"""...Xs...""",list3,Monster,TRUE,monster,dragon,plural,person1,person1_Vark_critical1.wav,super,Monster_pl_super.wav,13
-first,critical1,Vark,"""...Xs...""",list4,Drink,TRUE,drink,milk,plural,person1,person1_Vark_critical1.wav,super,Drink_pl_super.wav,13
-first,critical1,Vark,"""...Xs...""",list5,Meal,TRUE,meal,dinner,plural,person1,person1_Vark_critical1.wav,super,Meal_pl_super.wav,13
-first,critical1,Vark,"""...Xs...""",list6,Bird,TRUE,bird,penguin,plural,person1,person1_Vark_critical1.wav,super,Bird_pl_super.wav,13
-first,critical2,Plinket,"""...some Xs""",list1,Drink,TRUE,drink,milk,some,person2,person2_Plinket_critical2.wav,basic,Drink_pl_basic.wav,14
-first,critical2,Plinket,"""...some Xs""",list2,Meal,TRUE,meal,dinner,some,person2,person2_Plinket_critical2.wav,basic,Meal_pl_basic.wav,14
-first,critical2,Plinket,"""...some Xs""",list3,Plant,TRUE,plant,pumpkin,some,person2,person2_Plinket_critical2.wav,basic,Plant_pl_basic.wav,14
-first,critical2,Plinket,"""...some Xs""",list4,Monster,TRUE,monster,dragon,some,person2,person2_Plinket_critical2.wav,basic,Monster_pl_basic.wav,14
-first,critical2,Plinket,"""...some Xs""",list5,Drink,TRUE,drink,milk,some,person2,person2_Plinket_critical2.wav,basic,Drink_pl_basic.wav,14
-first,critical2,Plinket,"""...some Xs""",list6,Meal,TRUE,meal,dinner,some,person2,person2_Plinket_critical2.wav,basic,Meal_pl_basic.wav,14
-first,critical3,Snorf,"""...kind of X...""",list1,Furniture,FALSE,furniture,chair,kind of,person3,person3_Snorf_critical3.wav,super,Furniture_sg_super.wav,15
-first,critical3,Snorf,"""...kind of X...""",list2,Jewelry,FALSE,jewelry,bracelet,kind of,person3,person3_Snorf_critical3.wav,super,Jewelry_sg_super.wav,15
-first,critical3,Snorf,"""...kind of X...""",list3,Furniture,FALSE,furniture,chair,kind of,person3,person3_Snorf_critical3.wav,super,Furniture_sg_super.wav,15
-first,critical3,Snorf,"""...kind of X...""",list4,Jewelry,FALSE,jewelry,bracelet,kind of,person3,person3_Snorf_critical3.wav,super,Jewelry_sg_super.wav,15
-first,critical3,Snorf,"""...kind of X...""",list5,Furniture,FALSE,furniture,chair,kind of,person3,person3_Snorf_critical3.wav,super,Furniture_sg_super.wav,15
-first,critical3,Snorf,"""...kind of X...""",list6,Drink,FALSE,drink,milk,kind of,person3,person3_Snorf_critical3.wav,super,Drink_sg_super.wav,15
-first,control1,Zibble,"""...X...""",list1,Jewelry,FALSE,jewelry,bracelet,bare singular,person4,person4_Zibble_control1.wav,basic,Jewelry_sg_basic.wav,16
-first,control1,Zibble,"""...X...""",list2,Furniture,FALSE,furniture,chair,bare singular,person4,person4_Zibble_control1.wav,basic,Furniture_sg_basic.wav,16
-first,control1,Zibble,"""...X...""",list3,Jewelry,FALSE,jewelry,bracelet,bare singular,person4,person4_Zibble_control1.wav,basic,Jewelry_sg_basic.wav,16
-first,control1,Zibble,"""...X...""",list4,Furniture,FALSE,furniture,chair,bare singular,person4,person4_Zibble_control1.wav,basic,Furniture_sg_basic.wav,16
-first,control1,Zibble,"""...X...""",list5,Plant,FALSE,plant,pumpkin,bare singular,person4,person4_Zibble_control1.wav,basic,Plant_sg_basic.wav,16
-first,control1,Zibble,"""...X...""",list6,Monster,FALSE,monster,dragon,bare singular,person4,person4_Zibble_control1.wav,basic,Monster_sg_basic.wav,16
-first,control2,Glibber,"""...that's a(n) X...""",list1,Monster,FALSE,monster,dragon,is a,person5,person5_Glibber_control2.wav,super,Monster_sg_super.wav,17
-first,control2,Glibber,"""...that's a(n) X...""",list2,Drink,FALSE,drink,milk,is a,person5,person5_Glibber_control2.wav,super,Drink_sg_super.wav,17
-first,control2,Glibber,"""...that's a(n) X...""",list3,Meal,FALSE,meal,dinner,is a,person5,person5_Glibber_control2.wav,super,Meal_sg_super.wav,17
-first,control2,Glibber,"""...that's a(n) X...""",list4,Plant,FALSE,plant,pumpkin,is a,person5,person5_Glibber_control2.wav,super,Plant_sg_super.wav,17
-first,control2,Glibber,"""...that's a(n) X...""",list5,Monster,FALSE,monster,dragon,is a,person5,person5_Glibber_control2.wav,super,Monster_sg_super.wav,17
-first,control2,Glibber,"""...that's a(n) X...""",list6,Plant,FALSE,plant,pumpkin,is a,person5,person5_Glibber_control2.wav,super,Plant_sg_super.wav,17
-first,control3,Drindle,"""...that's called X...""",list1,Plant,FALSE,plant,pumpkin,called a,person6,person6_Drindle_control3.wav,basic,Plant_sg_basic.wav,18
-first,control3,Drindle,"""...that's called X...""",list2,Monster,FALSE,monster,dragon,called a,person6,person6_Drindle_control3.wav,basic,Monster_sg_basic.wav,18
-first,control3,Drindle,"""...that's called X...""",list3,Drink,FALSE,drink,milk,called a,person6,person6_Drindle_control3.wav,basic,Drink_sg_basic.wav,18
-first,control3,Drindle,"""...that's called X...""",list4,Meal,FALSE,meal,dinner,called a,person6,person6_Drindle_control3.wav,basic,Meal_sg_basic.wav,18
-first,control3,Drindle,"""...that's called X...""",list5,Jewelry,FALSE,jewelry,bracelet,called a,person6,person6_Drindle_control3.wav,basic,Jewelry_sg_basic.wav,18
-first,control3,Drindle,"""...that's called X...""",list6,Furniture,FALSE,furniture,chair,called a,person6,person6_Drindle_control3.wav,basic,Furniture_sg_basic.wav,18
-first,critical1,Flerm,"""...Xs...""",list1,Flower,TRUE,flower,rose,plural,person1,person1_Flerm_critical1.wav,super,Flower_pl_super.wav,19
-first,critical1,Flerm,"""...Xs...""",list2,Food,TRUE,food,sandwich,plural,person1,person1_Flerm_critical1.wav,super,Food_pl_super.wav,19
-first,critical1,Flerm,"""...Xs...""",list3,Vehicle,TRUE,vehicle,car,plural,person1,person1_Flerm_critical1.wav,super,Vehicle_pl_super.wav,19
-first,critical1,Flerm,"""...Xs...""",list4,Game,TRUE,game,puzzle,plural,person1,person1_Flerm_critical1.wav,super,Game_pl_super.wav,19
-first,critical1,Flerm,"""...Xs...""",list5,Pet,TRUE,pet,kitty,plural,person1,person1_Flerm_critical1.wav,super,Pet_pl_super.wav,19
-first,critical1,Flerm,"""...Xs...""",list6,Holiday,TRUE,holiday,halloween,plural,person1,person1_Flerm_critical1.wav,super,Holiday_pl_super.wav,19
-first,critical2,Gorp,"""...some Xs""",list1,Holiday,TRUE,holiday,halloween,some,person2,person2_Gorp_critical2.wav,basic,Holiday_pl_basic.wav,20
-first,critical2,Gorp,"""...some Xs""",list2,Flower,TRUE,flower,rose,some,person2,person2_Gorp_critical2.wav,basic,Flower_pl_basic.wav,20
-first,critical2,Gorp,"""...some Xs""",list3,Food,TRUE,food,sandwich,some,person2,person2_Gorp_critical2.wav,basic,Food_pl_basic.wav,20
-first,critical2,Gorp,"""...some Xs""",list4,Vehicle,TRUE,vehicle,car,some,person2,person2_Gorp_critical2.wav,basic,Vehicle_pl_basic.wav,20
-first,critical2,Gorp,"""...some Xs""",list5,Game,TRUE,game,puzzle,some,person2,person2_Gorp_critical2.wav,basic,Game_pl_basic.wav,20
-first,critical2,Gorp,"""...some Xs""",list6,Pet,TRUE,pet,kitty,some,person2,person2_Gorp_critical2.wav,basic,Pet_pl_basic.wav,20
-first,critical3,Slard,"""...kind of X...""",list1,Pet,FALSE,pet,kitty,kind of,person3,person3_Slard_critical3.wav,super,Pet_sg_super.wav,21
-first,critical3,Slard,"""...kind of X...""",list2,Holiday,FALSE,holiday,halloween,kind of,person3,person3_Slard_critical3.wav,super,Holiday_sg_super.wav,21
-first,critical3,Slard,"""...kind of X...""",list3,Flower,FALSE,flower,rose,kind of,person3,person3_Slard_critical3.wav,super,Flower_sg_super.wav,21
-first,critical3,Slard,"""...kind of X...""",list4,Food,FALSE,food,sandwich,kind of,person3,person3_Slard_critical3.wav,super,Food_sg_super.wav,21
-first,critical3,Slard,"""...kind of X...""",list5,Vehicle,FALSE,vehicle,car,kind of,person3,person3_Slard_critical3.wav,super,Vehicle_sg_super.wav,21
-first,critical3,Slard,"""...kind of X...""",list6,Game,FALSE,game,puzzle,kind of,person3,person3_Slard_critical3.wav,super,Game_sg_super.wav,21
-first,control1,Kermick,"""...X...""",list1,Game,FALSE,game,puzzle,bare singular,person4,person4_Kermick_control1.wav,basic,Game_sg_basic.wav,22
-first,control1,Kermick,"""...X...""",list2,Pet,FALSE,pet,kitty,bare singular,person4,person4_Kermick_control1.wav,basic,Pet_sg_basic.wav,22
-first,control1,Kermick,"""...X...""",list3,Holiday,FALSE,holiday,halloween,bare singular,person4,person4_Kermick_control1.wav,basic,Holiday_sg_basic.wav,22
-first,control1,Kermick,"""...X...""",list4,Flower,FALSE,flower,rose,bare singular,person4,person4_Kermick_control1.wav,basic,Flower_sg_basic.wav,22
-first,control1,Kermick,"""...X...""",list5,Food,FALSE,food,sandwich,bare singular,person4,person4_Kermick_control1.wav,basic,Food_sg_basic.wav,22
-first,control1,Kermick,"""...X...""",list6,Vehicle,FALSE,vehicle,car,bare singular,person4,person4_Kermick_control1.wav,basic,Vehicle_sg_basic.wav,22
-first,control2,Trundle,"""...that's a(n) X...""",list1,Vehicle,FALSE,vehicle,car,is a,person5,person5_Trundle_control2.wav,super,Vehicle_sg_super.wav,23
-first,control2,Trundle,"""...that's a(n) X...""",list2,Game,FALSE,game,puzzle,is a,person5,person5_Trundle_control2.wav,super,Game_sg_super.wav,23
-first,control2,Trundle,"""...that's a(n) X...""",list3,Pet,FALSE,pet,kitty,is a,person5,person5_Trundle_control2.wav,super,Pet_sg_super.wav,23
-first,control2,Trundle,"""...that's a(n) X...""",list4,Holiday,FALSE,holiday,halloween,is a,person5,person5_Trundle_control2.wav,super,Holiday_sg_super.wav,23
-first,control2,Trundle,"""...that's a(n) X...""",list5,Flower,FALSE,flower,rose,is a,person5,person5_Trundle_control2.wav,super,Flower_sg_super.wav,23
-first,control2,Trundle,"""...that's a(n) X...""",list6,Food,FALSE,food,sandwich,is a,person5,person5_Trundle_control2.wav,super,Food_sg_super.wav,23
-first,control3,Plick,"""...that's called X...""",list1,Food,FALSE,food,sandwich,called a,person6,person6_Plick_control3.wav,basic,Food_sg_basic.wav,24
-first,control3,Plick,"""...that's called X...""",list2,Vehicle,FALSE,vehicle,car,called a,person6,person6_Plick_control3.wav,basic,Vehicle_sg_basic.wav,24
-first,control3,Plick,"""...that's called X...""",list3,Game,FALSE,game,puzzle,called a,person6,person6_Plick_control3.wav,basic,Game_sg_basic.wav,24
-first,control3,Plick,"""...that's called X...""",list4,Pet,FALSE,pet,kitty,called a,person6,person6_Plick_control3.wav,basic,Pet_sg_basic.wav,24
-first,control3,Plick,"""...that's called X...""",list5,Holiday,FALSE,holiday,halloween,called a,person6,person6_Plick_control3.wav,basic,Holiday_sg_basic.wav,24
-first,control3,Plick,"""...that's called X...""",list6,Flower,FALSE,flower,rose,called a,person6,person6_Plick_control3.wav,basic,Flower_sg_basic.wav,24
-second,critical4,Blicket,"""...all Xs...""",list1,Toy,TRUE,toy,ball,all,person1,person1_Blicket_critical4.wav,super,Toy_pl_super.wav,1
-second,critical4,Blicket,"""...all Xs...""",list2,Vegetable,TRUE,vegetable,pepper,all,person1,person1_Blicket_critical4.wav,super,Vegetable_pl_super.wav,1
-second,critical4,Blicket,"""...all Xs...""",list3,Fruit,TRUE,fruit,apple,all,person1,person1_Blicket_critical4.wav,super,Fruit_pl_super.wav,1
-second,critical4,Blicket,"""...all Xs...""",list4,Building,TRUE,building,hospital,all,person1,person1_Blicket_critical4.wav,super,Building_pl_super.wav,1
-second,critical4,Blicket,"""...all Xs...""",list5,Tool,TRUE,tool,hammer,all,person1,person1_Blicket_critical4.wav,super,Tool_pl_super.wav,1
-second,critical4,Blicket,"""...all Xs...""",list6,Animal,TRUE,animal,dog,all,person1,person1_Blicket_critical4.wav,super,Animal_pl_super.wav,1
-second,critical5,Gooble,"""...Which X...""",list1,Animal,FALSE,animal,dog,which,person2,person2_Gooble_critical5.wav,basic,Animal_sg_basic.wav,2
-second,critical5,Gooble,"""...Which X...""",list2,Toy,FALSE,toy,ball,which,person2,person2_Gooble_critical5.wav,basic,Toy_sg_basic.wav,2
-second,critical5,Gooble,"""...Which X...""",list3,Vegetable,FALSE,vegetable,pepper,which,person2,person2_Gooble_critical5.wav,basic,Vegetable_sg_basic.wav,2
-second,critical5,Gooble,"""...Which X...""",list4,Fruit,FALSE,fruit,apple,which,person2,person2_Gooble_critical5.wav,basic,Fruit_sg_basic.wav,2
-second,critical5,Gooble,"""...Which X...""",list5,Building,FALSE,building,hospital,which,person2,person2_Gooble_critical5.wav,basic,Building_sg_basic.wav,2
-second,critical5,Gooble,"""...Which X...""",list6,Tool,FALSE,tool,hammer,which,person2,person2_Gooble_critical5.wav,basic,Tool_sg_basic.wav,2
-second,critical6,Wug,"""...another X...""",list1,Tool,FALSE,tool,hammer,another,person3,person3_Wug_critical6.wav,super,Tool_sg_super.wav,3
-second,critical6,Wug,"""...another X...""",list2,Animal,FALSE,animal,dog,another,person3,person3_Wug_critical6.wav,super,Animal_sg_super.wav,3
-second,critical6,Wug,"""...another X...""",list3,Toy,FALSE,toy,ball,another,person3,person3_Wug_critical6.wav,super,Toy_sg_super.wav,3
-second,critical6,Wug,"""...another X...""",list4,Vegetable,FALSE,vegetable,pepper,another,person3,person3_Wug_critical6.wav,super,Vegetable_sg_super.wav,3
-second,critical6,Wug,"""...another X...""",list5,Fruit,FALSE,fruit,apple,another,person3,person3_Wug_critical6.wav,super,Fruit_sg_super.wav,3
-second,critical6,Wug,"""...another X...""",list6,Building,FALSE,building,hospital,another,person3,person3_Wug_critical6.wav,super,Building_sg_super.wav,3
-second,control1,Greeble,"""...X...""",list1,Building,FALSE,building,hospital,bare singular,person4,person4_Greeble_control1.wav,basic,Building_sg_basic.wav,4
-second,control1,Greeble,"""...X...""",list2,Tool,FALSE,tool,hammer,bare singular,person4,person4_Greeble_control1.wav,basic,Tool_sg_basic.wav,4
-second,control1,Greeble,"""...X...""",list3,Animal,FALSE,animal,dog,bare singular,person4,person4_Greeble_control1.wav,basic,Animal_sg_basic.wav,4
-second,control1,Greeble,"""...X...""",list4,Toy,FALSE,toy,ball,bare singular,person4,person4_Greeble_control1.wav,basic,Toy_sg_basic.wav,4
-second,control1,Greeble,"""...X...""",list5,Vegetable,FALSE,vegetable,pepper,bare singular,person4,person4_Greeble_control1.wav,basic,Vegetable_sg_basic.wav,4
-second,control1,Greeble,"""...X...""",list6,Fruit,FALSE,fruit,apple,bare singular,person4,person4_Greeble_control1.wav,basic,Fruit_sg_basic.wav,4
-second,control2,Zorbit,"""...that's a(n) X...""",list1,Fruit,FALSE,fruit,apple,is a,person5,person5_Zorbit_control2.wav,super,Fruit_sg_super.wav,5
-second,control2,Zorbit,"""...that's a(n) X...""",list2,Building,FALSE,building,hospital,is a,person5,person5_Zorbit_control2.wav,super,Building_sg_super.wav,5
-second,control2,Zorbit,"""...that's a(n) X...""",list3,Tool,FALSE,tool,hammer,is a,person5,person5_Zorbit_control2.wav,super,Tool_sg_super.wav,5
-second,control2,Zorbit,"""...that's a(n) X...""",list4,Animal,FALSE,animal,dog,is a,person5,person5_Zorbit_control2.wav,super,Animal_sg_super.wav,5
-second,control2,Zorbit,"""...that's a(n) X...""",list5,Toy,FALSE,toy,ball,is a,person5,person5_Zorbit_control2.wav,super,Toy_sg_super.wav,5
-second,control2,Zorbit,"""...that's a(n) X...""",list6,Vegetable,FALSE,vegetable,pepper,is a,person5,person5_Zorbit_control2.wav,super,Vegetable_sg_super.wav,5
-second,control3,Flork,"""...that's called X...""",list1,Vegetable,FALSE,vegetable,pepper,called a,person6,person6_Flork_control3.wav,basic,Vegetable_sg_basic.wav,6
-second,control3,Flork,"""...that's called X...""",list2,Fruit,FALSE,fruit,apple,called a,person6,person6_Flork_control3.wav,basic,Fruit_sg_basic.wav,6
-second,control3,Flork,"""...that's called X...""",list3,Building,FALSE,building,hospital,called a,person6,person6_Flork_control3.wav,basic,Building_sg_basic.wav,6
-second,control3,Flork,"""...that's called X...""",list4,Tool,FALSE,tool,hammer,called a,person6,person6_Flork_control3.wav,basic,Tool_sg_basic.wav,6
-second,control3,Flork,"""...that's called X...""",list5,Animal,FALSE,animal,dog,called a,person6,person6_Flork_control3.wav,basic,Animal_sg_basic.wav,6
-second,control3,Flork,"""...that's called X...""",list6,Toy,FALSE,toy,ball,called a,person6,person6_Flork_control3.wav,basic,Toy_sg_basic.wav,6
-second,critical4,Beelick,"""...all Xs...""",list1,Dessert,TRUE,dessert,cupcake,all,person1,person1_Beelick_critical4.wav,super,Dessert_pl_super.wav,7
-second,critical4,Beelick,"""...all Xs...""",list2,Bird,TRUE,bird,penguin,all,person1,person1_Beelick_critical4.wav,super,Bird_pl_super.wav,7
-second,critical4,Beelick,"""...all Xs...""",list3,Snack,TRUE,snack,pretzel,all,person1,person1_Beelick_critical4.wav,super,Snack_pl_super.wav,7
-second,critical4,Beelick,"""...all Xs...""",list4,Candy,TRUE,candy,lollipop,all,person1,person1_Beelick_critical4.wav,super,Candy_pl_super.wav,7
-second,critical4,Beelick,"""...all Xs...""",list5,Insect,TRUE,insect,bee,all,person1,person1_Beelick_critical4.wav,super,Insect_pl_super.wav,7
-second,critical4,Beelick,"""...all Xs...""",list6,Candy,TRUE,candy,lollipop,all,person1,person1_Beelick_critical4.wav,super,Candy_pl_super.wav,7
-second,critical5,Crendle,"""...Which X...""",list1,Candy,FALSE,candy,lollipop,which,person2,person2_Crendle_critical5.wav,basic,Candy_sg_basic.wav,8
-second,critical5,Crendle,"""...Which X...""",list2,Clothing,FALSE,clothing,dress,which,person2,person2_Crendle_critical5.wav,basic,Clothing_sg_basic.wav,8
-second,critical5,Crendle,"""...Which X...""",list3,Bird,FALSE,bird,penguin,which,person2,person2_Crendle_critical5.wav,basic,Bird_sg_basic.wav,8
-second,critical5,Crendle,"""...Which X...""",list4,Snack,FALSE,snack,pretzel,which,person2,person2_Crendle_critical5.wav,basic,Snack_sg_basic.wav,8
-second,critical5,Crendle,"""...Which X...""",list5,Candy,FALSE,candy,lollipop,which,person2,person2_Crendle_critical5.wav,basic,Candy_sg_basic.wav,8
-second,critical5,Crendle,"""...Which X...""",list6,Insect,FALSE,insect,bee,which,person2,person2_Crendle_critical5.wav,basic,Insect_sg_basic.wav,8
-second,critical6,Mip,"""...another X...""",list1,Insect,FALSE,insect,bee,another,person3,person3_Mip_critical6.wav,super,Insect_sg_super.wav,9
-second,critical6,Mip,"""...another X...""",list2,Dessert,FALSE,dessert,cupcake,another,person3,person3_Mip_critical6.wav,super,Dessert_sg_super.wav,9
-second,critical6,Mip,"""...another X...""",list3,Dessert,FALSE,dessert,cupcake,another,person3,person3_Mip_critical6.wav,super,Dessert_sg_super.wav,9
-second,critical6,Mip,"""...another X...""",list4,Bird,FALSE,bird,penguin,another,person3,person3_Mip_critical6.wav,super,Bird_sg_super.wav,9
-second,critical6,Mip,"""...another X...""",list5,Snack,FALSE,snack,pretzel,another,person3,person3_Mip_critical6.wav,super,Snack_sg_super.wav,9
-second,critical6,Mip,"""...another X...""",list6,Dessert,FALSE,dessert,cupcake,another,person3,person3_Mip_critical6.wav,super,Dessert_sg_super.wav,9
-second,control1,Glorp,"""...X...""",list1,Clothing,FALSE,clothing,dress,bare singular,person4,person4_Glorp_control1.wav,basic,Clothing_sg_basic.wav,10
-second,control1,Glorp,"""...X...""",list2,Insect,FALSE,insect,bee,bare singular,person4,person4_Glorp_control1.wav,basic,Insect_sg_basic.wav,10
-second,control1,Glorp,"""...X...""",list3,Clothing,FALSE,clothing,dress,bare singular,person4,person4_Glorp_control1.wav,basic,Clothing_sg_basic.wav,10
-second,control1,Glorp,"""...X...""",list4,Dessert,FALSE,dessert,cupcake,bare singular,person4,person4_Glorp_control1.wav,basic,Dessert_sg_basic.wav,10
-second,control1,Glorp,"""...X...""",list5,Bird,FALSE,bird,penguin,bare singular,person4,person4_Glorp_control1.wav,basic,Bird_sg_basic.wav,10
-second,control1,Glorp,"""...X...""",list6,Snack,FALSE,snack,pretzel,bare singular,person4,person4_Glorp_control1.wav,basic,Snack_sg_basic.wav,10
-second,control2,Ziff,"""...that's a(n) X...""",list1,Snack,FALSE,snack,pretzel,is a,person5,person5_Ziff_control2.wav,super,Snack_sg_super.wav,11
-second,control2,Ziff,"""...that's a(n) X...""",list2,Candy,FALSE,candy,lollipop,is a,person5,person5_Ziff_control2.wav,super,Candy_sg_super.wav,11
-second,control2,Ziff,"""...that's a(n) X...""",list3,Insect,FALSE,insect,bee,is a,person5,person5_Ziff_control2.wav,super,Insect_sg_super.wav,11
-second,control2,Ziff,"""...that's a(n) X...""",list4,Clothing,FALSE,clothing,dress,is a,person5,person5_Ziff_control2.wav,super,Clothing_sg_super.wav,11
-second,control2,Ziff,"""...that's a(n) X...""",list5,Dessert,FALSE,dessert,cupcake,is a,person5,person5_Ziff_control2.wav,super,Dessert_sg_super.wav,11
-second,control2,Ziff,"""...that's a(n) X...""",list6,Bird,FALSE,bird,penguin,is a,person5,person5_Ziff_control2.wav,super,Bird_sg_super.wav,11
-second,control3,Ozable,"""...that's called X...""",list1,Bird,FALSE,bird,penguin,called a,person6,person6_Ozable_control3.wav,basic,Bird_sg_basic.wav,12
-second,control3,Ozable,"""...that's called X...""",list2,Snack,FALSE,snack,pretzel,called a,person6,person6_Ozable_control3.wav,basic,Snack_sg_basic.wav,12
-second,control3,Ozable,"""...that's called X...""",list3,Candy,FALSE,candy,lollipop,called a,person6,person6_Ozable_control3.wav,basic,Candy_sg_basic.wav,12
-second,control3,Ozable,"""...that's called X...""",list4,Insect,FALSE,insect,bee,called a,person6,person6_Ozable_control3.wav,basic,Insect_sg_basic.wav,12
-second,control3,Ozable,"""...that's called X...""",list5,Clothing,FALSE,clothing,dress,called a,person6,person6_Ozable_control3.wav,basic,Clothing_sg_basic.wav,12
-second,control3,Ozable,"""...that's called X...""",list6,Clothing,FALSE,clothing,dress,called a,person6,person6_Ozable_control3.wav,basic,Clothing_sg_basic.wav,12
-second,critical4,Vark,"""...all Xs...""",list1,Meal,TRUE,meal,dinner,all,person1,person1_Vark_critical4.wav,super,Meal_pl_super.wav,13
-second,critical4,Vark,"""...all Xs...""",list2,Plant,TRUE,plant,pumpkin,all,person1,person1_Vark_critical4.wav,super,Plant_pl_super.wav,13
-second,critical4,Vark,"""...all Xs...""",list3,Monster,TRUE,monster,dragon,all,person1,person1_Vark_critical4.wav,super,Monster_pl_super.wav,13
-second,critical4,Vark,"""...all Xs...""",list4,Drink,TRUE,drink,milk,all,person1,person1_Vark_critical4.wav,super,Drink_pl_super.wav,13
-second,critical4,Vark,"""...all Xs...""",list5,Meal,TRUE,meal,dinner,all,person1,person1_Vark_critical4.wav,super,Meal_pl_super.wav,13
-second,critical4,Vark,"""...all Xs...""",list6,Meal,TRUE,meal,dinner,all,person1,person1_Vark_critical4.wav,super,Meal_pl_super.wav,13
-second,critical5,Plinket,"""...Which X...""",list1,Drink,FALSE,drink,milk,which,person2,person2_Plinket_critical5.wav,basic,Drink_sg_basic.wav,14
-second,critical5,Plinket,"""...Which X...""",list2,Meal,FALSE,meal,dinner,which,person2,person2_Plinket_critical5.wav,basic,Meal_sg_basic.wav,14
-second,critical5,Plinket,"""...Which X...""",list3,Plant,FALSE,plant,pumpkin,which,person2,person2_Plinket_critical5.wav,basic,Plant_sg_basic.wav,14
-second,critical5,Plinket,"""...Which X...""",list4,Monster,FALSE,monster,dragon,which,person2,person2_Plinket_critical5.wav,basic,Monster_sg_basic.wav,14
-second,critical5,Plinket,"""...Which X...""",list5,Drink,FALSE,drink,milk,which,person2,person2_Plinket_critical5.wav,basic,Drink_sg_basic.wav,14
-second,critical5,Plinket,"""...Which X...""",list6,Jewelry,FALSE,jewelry,bracelet,which,person2,person2_Plinket_critical5.wav,basic,Jewelry_sg_basic.wav,14
-second,critical6,Snorf,"""...another X...""",list1,Plant,FALSE,plant,pumpkin,another,person3,person3_Snorf_critical6.wav,super,Plant_sg_super.wav,15
-second,critical6,Snorf,"""...another X...""",list2,Monster,FALSE,monster,dragon,another,person3,person3_Snorf_critical6.wav,super,Monster_sg_super.wav,15
-second,critical6,Snorf,"""...another X...""",list3,Drink,FALSE,drink,milk,another,person3,person3_Snorf_critical6.wav,super,Drink_sg_super.wav,15
-second,critical6,Snorf,"""...another X...""",list4,Meal,FALSE,meal,dinner,another,person3,person3_Snorf_critical6.wav,super,Meal_sg_super.wav,15
-second,critical6,Snorf,"""...another X...""",list5,Plant,FALSE,plant,pumpkin,another,person3,person3_Snorf_critical6.wav,super,Plant_sg_super.wav,15
-second,critical6,Snorf,"""...another X...""",list6,Drink,FALSE,drink,milk,another,person3,person3_Snorf_critical6.wav,super,Drink_sg_super.wav,15
-second,control1,Zibble,"""...X...""",list1,Jewelry,FALSE,jewelry,bracelet,bare singular,person4,person4_Zibble_control1.wav,basic,Jewelry_sg_basic.wav,16
-second,control1,Zibble,"""...X...""",list2,Furniture,FALSE,furniture,chair,bare singular,person4,person4_Zibble_control1.wav,basic,Furniture_sg_basic.wav,16
-second,control1,Zibble,"""...X...""",list3,Jewelry,FALSE,jewelry,bracelet,bare singular,person4,person4_Zibble_control1.wav,basic,Jewelry_sg_basic.wav,16
-second,control1,Zibble,"""...X...""",list4,Furniture,FALSE,furniture,chair,bare singular,person4,person4_Zibble_control1.wav,basic,Furniture_sg_basic.wav,16
-second,control1,Zibble,"""...X...""",list5,Furniture,FALSE,furniture,chair,bare singular,person4,person4_Zibble_control1.wav,basic,Furniture_sg_basic.wav,16
-second,control1,Zibble,"""...X...""",list6,Monster,FALSE,monster,dragon,bare singular,person4,person4_Zibble_control1.wav,basic,Monster_sg_basic.wav,16
-second,control2,Glibber,"""...that's a(n) X...""",list1,Monster,FALSE,monster,dragon,is a,person5,person5_Glibber_control2.wav,super,Monster_sg_super.wav,17
-second,control2,Glibber,"""...that's a(n) X...""",list2,Drink,FALSE,drink,milk,is a,person5,person5_Glibber_control2.wav,super,Drink_sg_super.wav,17
-second,control2,Glibber,"""...that's a(n) X...""",list3,Meal,FALSE,meal,dinner,is a,person5,person5_Glibber_control2.wav,super,Meal_sg_super.wav,17
-second,control2,Glibber,"""...that's a(n) X...""",list4,Plant,FALSE,plant,pumpkin,is a,person5,person5_Glibber_control2.wav,super,Plant_sg_super.wav,17
-second,control2,Glibber,"""...that's a(n) X...""",list5,Monster,FALSE,monster,dragon,is a,person5,person5_Glibber_control2.wav,super,Monster_sg_super.wav,17
-second,control2,Glibber,"""...that's a(n) X...""",list6,Plant,FALSE,plant,pumpkin,is a,person5,person5_Glibber_control2.wav,super,Plant_sg_super.wav,17
-second,control3,Drindle,"""...that's called X...""",list1,Furniture,FALSE,furniture,chair,called a,person6,person6_Drindle_control3.wav,basic,Furniture_sg_basic.wav,18
-second,control3,Drindle,"""...that's called X...""",list2,Jewelry,FALSE,jewelry,bracelet,called a,person6,person6_Drindle_control3.wav,basic,Jewelry_sg_basic.wav,18
-second,control3,Drindle,"""...that's called X...""",list3,Furniture,FALSE,furniture,chair,called a,person6,person6_Drindle_control3.wav,basic,Furniture_sg_basic.wav,18
-second,control3,Drindle,"""...that's called X...""",list4,Jewelry,FALSE,jewelry,bracelet,called a,person6,person6_Drindle_control3.wav,basic,Jewelry_sg_basic.wav,18
-second,control3,Drindle,"""...that's called X...""",list5,Jewelry,FALSE,jewelry,bracelet,called a,person6,person6_Drindle_control3.wav,basic,Jewelry_sg_basic.wav,18
-second,control3,Drindle,"""...that's called X...""",list6,Furniture,FALSE,furniture,chair,called a,person6,person6_Drindle_control3.wav,basic,Furniture_sg_basic.wav,18
-second,critical4,Flerm,"""...all Xs...""",list1,Flower,TRUE,flower,rose,all,person1,person1_Flerm_critical4.wav,super,Flower_pl_super.wav,19
-second,critical4,Flerm,"""...all Xs...""",list2,Food,TRUE,food,sandwich,all,person1,person1_Flerm_critical4.wav,super,Food_pl_super.wav,19
-second,critical4,Flerm,"""...all Xs...""",list3,Vehicle,TRUE,vehicle,car,all,person1,person1_Flerm_critical4.wav,super,Vehicle_pl_super.wav,19
-second,critical4,Flerm,"""...all Xs...""",list4,Game,TRUE,game,puzzle,all,person1,person1_Flerm_critical4.wav,super,Game_pl_super.wav,19
-second,critical4,Flerm,"""...all Xs...""",list5,Pet,TRUE,pet,kitty,all,person1,person1_Flerm_critical4.wav,super,Pet_pl_super.wav,19
-second,critical4,Flerm,"""...all Xs...""",list6,Holiday,TRUE,holiday,halloween,all,person1,person1_Flerm_critical4.wav,super,Holiday_pl_super.wav,19
-second,critical5,Gorp,"""...Which X...""",list1,Holiday,FALSE,holiday,halloween,which,person2,person2_Gorp_critical5.wav,basic,Holiday_sg_basic.wav,20
-second,critical5,Gorp,"""...Which X...""",list2,Flower,FALSE,flower,rose,which,person2,person2_Gorp_critical5.wav,basic,Flower_sg_basic.wav,20
-second,critical5,Gorp,"""...Which X...""",list3,Food,FALSE,food,sandwich,which,person2,person2_Gorp_critical5.wav,basic,Food_sg_basic.wav,20
-second,critical5,Gorp,"""...Which X...""",list4,Vehicle,FALSE,vehicle,car,which,person2,person2_Gorp_critical5.wav,basic,Vehicle_sg_basic.wav,20
-second,critical5,Gorp,"""...Which X...""",list5,Game,FALSE,game,puzzle,which,person2,person2_Gorp_critical5.wav,basic,Game_sg_basic.wav,20
-second,critical5,Gorp,"""...Which X...""",list6,Pet,FALSE,pet,kitty,which,person2,person2_Gorp_critical5.wav,basic,Pet_sg_basic.wav,20
-second,critical6,Slard,"""...another X...""",list1,Pet,FALSE,pet,kitty,another,person3,person3_Slard_critical6.wav,super,Pet_sg_super.wav,21
-second,critical6,Slard,"""...another X...""",list2,Holiday,FALSE,holiday,halloween,another,person3,person3_Slard_critical6.wav,super,Holiday_sg_super.wav,21
-second,critical6,Slard,"""...another X...""",list3,Flower,FALSE,flower,rose,another,person3,person3_Slard_critical6.wav,super,Flower_sg_super.wav,21
-second,critical6,Slard,"""...another X...""",list4,Food,FALSE,food,sandwich,another,person3,person3_Slard_critical6.wav,super,Food_sg_super.wav,21
-second,critical6,Slard,"""...another X...""",list5,Vehicle,FALSE,vehicle,car,another,person3,person3_Slard_critical6.wav,super,Vehicle_sg_super.wav,21
-second,critical6,Slard,"""...another X...""",list6,Game,FALSE,game,puzzle,another,person3,person3_Slard_critical6.wav,super,Game_sg_super.wav,21
-second,control1,Kermick,"""...X...""",list1,Game,FALSE,game,puzzle,bare singular,person4,person4_Kermick_control1.wav,basic,Game_sg_basic.wav,22
-second,control1,Kermick,"""...X...""",list2,Pet,FALSE,pet,kitty,bare singular,person4,person4_Kermick_control1.wav,basic,Pet_sg_basic.wav,22
-second,control1,Kermick,"""...X...""",list3,Holiday,FALSE,holiday,halloween,bare singular,person4,person4_Kermick_control1.wav,basic,Holiday_sg_basic.wav,22
-second,control1,Kermick,"""...X...""",list4,Flower,FALSE,flower,rose,bare singular,person4,person4_Kermick_control1.wav,basic,Flower_sg_basic.wav,22
-second,control1,Kermick,"""...X...""",list5,Food,FALSE,food,sandwich,bare singular,person4,person4_Kermick_control1.wav,basic,Food_sg_basic.wav,22
-second,control1,Kermick,"""...X...""",list6,Vehicle,FALSE,vehicle,car,bare singular,person4,person4_Kermick_control1.wav,basic,Vehicle_sg_basic.wav,22
-second,control2,Trundle,"""...that's a(n) X...""",list1,Vehicle,FALSE,vehicle,car,is a,person5,person5_Trundle_control2.wav,super,Vehicle_sg_super.wav,23
-second,control2,Trundle,"""...that's a(n) X...""",list2,Game,FALSE,game,puzzle,is a,person5,person5_Trundle_control2.wav,super,Game_sg_super.wav,23
-second,control2,Trundle,"""...that's a(n) X...""",list3,Pet,FALSE,pet,kitty,is a,person5,person5_Trundle_control2.wav,super,Pet_sg_super.wav,23
-second,control2,Trundle,"""...that's a(n) X...""",list4,Holiday,FALSE,holiday,halloween,is a,person5,person5_Trundle_control2.wav,super,Holiday_sg_super.wav,23
-second,control2,Trundle,"""...that's a(n) X...""",list5,Flower,FALSE,flower,rose,is a,person5,person5_Trundle_control2.wav,super,Flower_sg_super.wav,23
-second,control2,Trundle,"""...that's a(n) X...""",list6,Food,FALSE,food,sandwich,is a,person5,person5_Trundle_control2.wav,super,Food_sg_super.wav,23
-second,control3,Plick,"""...that's called X...""",list1,Food,FALSE,food,sandwich,called a,person6,person6_Plick_control3.wav,basic,Food_sg_basic.wav,24
-second,control3,Plick,"""...that's called X...""",list2,Vehicle,FALSE,vehicle,car,called a,person6,person6_Plick_control3.wav,basic,Vehicle_sg_basic.wav,24
-second,control3,Plick,"""...that's called X...""",list3,Game,FALSE,game,puzzle,called a,person6,person6_Plick_control3.wav,basic,Game_sg_basic.wav,24
-second,control3,Plick,"""...that's called X...""",list4,Pet,FALSE,pet,kitty,called a,person6,person6_Plick_control3.wav,basic,Pet_sg_basic.wav,24
-second,control3,Plick,"""...that's called X...""",list5,Holiday,FALSE,holiday,halloween,called a,person6,person6_Plick_control3.wav,basic,Holiday_sg_basic.wav,24
-second,control3,Plick,"""...that's called X...""",list6,Flower,FALSE,flower,rose,called a,person6,person6_Plick_control3.wav,basic,Flower_sg_basic.wav,24
+item,word,group,cond,target_pos
+apple,mipen,A,one,left
+ball,kapsin,A,three,right
+bus,lorpim,A,one,left
+chair,kalmick,A,three,right
+dino,tantol,A,one,left
+dog,gavai,A,three,right
+pepper,tuffee,A,one,left
+phone,spadil,A,three,right
+apple,mipen,B,three,left
+ball,kapsin,B,one,right
+bus,lorpim,B,three,left
+chair,kalmick,B,one,right
+dino,tantol,B,three,left
+dog,gavai,B,one,right
+pepper,tuffee,B,three,left
+phone,spadil,B,one,right
+phone,spadil,C,one,right
+pepper,tuffee,C,three,left
+dog,gavai,C,one,right
+dino,tantol,C,three,left
+chair,kalmick,C,one,right
+bus,lorpim,C,three,left
+ball,kapsin,C,one,right
+apple,mipen,C,three,left
+phone,spadil,D,three,right
+pepper,tuffee,D,one,left
+dog,gavai,D,three,right
+dino,tantol,D,one,left
+chair,kalmick,D,three,right
+bus,lorpim,D,one,left
+ball,kapsin,D,three,right
+apple,mipen,D,one,left

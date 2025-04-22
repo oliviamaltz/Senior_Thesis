@@ -44,19 +44,9 @@ span.retry:visited {
     color: blue;
 }
 
-.tilt-shake {
-  animation: tilt-shake 0.7s infinite;
-}
-
-@keyframes tilt-shake {
-  0% { transform: rotate(0deg); }
-  25% { transform: rotate(5deg); }
-  50% { transform: rotate(0eg); }
-  75% { transform: rotate(-5deg); }
-  100% { transform: rotate(0deg); }
-}
-
-@keyframes blink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.2; }
+@keyframes jitter {
+    0% {transform: rotate(0deg)}
+    33% {transform: rotate(-10deg)}
+    66% {transform: rotate(10deg)}
+    100% {transform: rotate(0deg)}
 }
