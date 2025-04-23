@@ -1,0 +1,35 @@
+.PennController {
+  width: 60em !important;
+  margin-left: 50vw;
+  transform: translateX(-50%);
+}
+
+.SelectionGrid {
+  margin: 1rem auto;
+  padding: 10;
+  background-color: #EEEEEE50;
+  display: grid;
+  justify-content: center;
+  column-gap: 30px;
+  row-gap: 15px;
+}
+
+.cell {
+  position: relative;
+  background-color: white;
+}
+
+.cell-selected {
+  outline: 5px solid forestgreen;
+}
+
+.cell img {
+  max-width: 95%;
+  max-height: 95%;
+  position: absolute;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
